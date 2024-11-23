@@ -1,0 +1,149 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .logo {
+    color: #1877f2;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .tagline {
+    font-size: 20px;
+    color: #606770;
+    line-height: 1.5;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-field {
+    width: 93.5%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #1877f2;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #155dbb;
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #dddfe2;
+  }
+  
+  .create-account-btn {
+    width: 100%;
+    background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #36a420;
+  }
+  
+  .create-page-text {
+    text-align: center;
+    color: #606770;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .create-page-link {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .create-page-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-section {
+      padding: 0 0 20px 0;
+      text-align: center;
+    }
+  }
+  

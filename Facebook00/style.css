@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 48px;
+    color: #1877f2;
+    margin: 0;
+  }
+  
+  .form-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-box h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .signup-box p {
+    color: #606770;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .half-width {
+    width: 48%;
+    display: inline-block;
+    margin-right: 2%;
+  }
+  
+  .half-width:last-child {
+    margin-right: 0;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .dob-section {
+    margin-bottom: 10px;
+  }
+  
+  .dob-label {
+    font-size: 14px;
+    color: #606770;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .question-mark {
+    font-size: 18px;
+    color: #1877f2;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .dob-selects {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dob-select {
+    width: 32%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+  }
+  
+  .gender-section {
+    margin-bottom: 10px;
+  }
+  
+  .gender-label {
+    font-size: 14px;
+    color: #606770;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .gender-selection {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gender-selection label {
+    font-size: 14px;
+    color: #606770;
+  }
+  
+  .story a {
+    color: #1877f2;  
+  }
+
+  .terms a {
+    color: #1877f2;
+  }
+  .signup-btn {
+    width: 40%;
+    padding: 10px 20px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    left: 30%;
+  }
+  
+  .signup-btn:hover {
+    background-color: #59bd45;
+  }
+  
+  .story, .terms {
+    font-size: 12px;
+    color: #606770;
+    line-height: 1.4;
+  }
+  
+  .already-account {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .already-account a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .already-account a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .input-field, .half-width, .signup-btn {
+      width: 100%;
+    }
+  
+    .dob-selects {
+      flex-direction: column;
+    }
+  
+    .gender-selection {
+      flex-direction: column;
+    }
+  }
