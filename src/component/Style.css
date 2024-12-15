@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .header .img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .headcenter{
+    display: flex;
+    
+  }
